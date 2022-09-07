@@ -43,7 +43,7 @@ namespace Function.LoadInvoces
         }
 
         [FunctionName("functionnfe")]
-        public void Run([TimerTrigger("0 */20 * * * *")] TimerInfo myTimer, ILogger log)
+        public void Run([TimerTrigger("0 */10 * * * *")] TimerInfo myTimer, ILogger log)
         {
             Processar();
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
