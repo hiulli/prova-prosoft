@@ -42,7 +42,7 @@ namespace Function.LoadInvoces
             _servicoProdutoNFe = servicoProdutoNFe;
         }
 
-        [FunctionName("LoadInvoces")]
+        [FunctionName("functionnfe")]
         public void Run([TimerTrigger("0 */20 * * * *")] TimerInfo myTimer, ILogger log)
         {
             Processar();
