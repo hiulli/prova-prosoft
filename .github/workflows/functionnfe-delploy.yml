@@ -20,9 +20,10 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
-    - name: Build
+    - name: Build 
       run: dotnet build src/Function.LoadInvoces/Function.LoadInvoces.csproj
     
     
     - name: Azure Functions Action
       uses: Azure/functions-action@v1.4.7
+      
