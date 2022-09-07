@@ -1,0 +1,27 @@
+name: .NET
+
+on:
+  push:
+    branches: [ "main" ]
+    # paths: '/src'
+  pull_request:
+    branches: [ "main" ]
+    # paths: '/src'
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    
+    - name: Azure Functions Action
+      uses: Azure/functions-action@v1.4.7
