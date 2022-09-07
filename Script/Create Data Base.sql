@@ -1,8 +1,4 @@
-Use [master];
-
-Drop DataBase DataBaseNFe;
 Create DataBase DataBaseNFe;
-
 Use DataBaseNFe;
 
 BEGIN TRANSACTION;
