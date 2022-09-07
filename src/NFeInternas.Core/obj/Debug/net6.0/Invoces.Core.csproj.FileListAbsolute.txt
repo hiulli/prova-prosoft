@@ -1,0 +1,12 @@
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\bin\Debug\net6.0\Invoces.Core.deps.json
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\bin\Debug\net6.0\Invoces.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\bin\Debug\net6.0\Invoces.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\Invoces.Core.csproj.AssemblyReference.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\Invoces.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\Invoces.Core.AssemblyInfoInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\Invoces.Core.AssemblyInfo.cs
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\Invoces.Core.csproj.CoreCompileInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\Invoces.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\refint\Invoces.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\Invoces.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\Invoces.Core\obj\Debug\net6.0\ref\Invoces.Core.dll

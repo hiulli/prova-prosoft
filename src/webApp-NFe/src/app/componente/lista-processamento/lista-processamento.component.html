@@ -1,0 +1,39 @@
+<table mat-table [dataSource]="processamentos" class="mat-elevation-z8">
+    <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> Id </th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="dataHoraInicio">
+        <th mat-header-cell *matHeaderCellDef>Data Inicio </th>
+        <td mat-cell *matCellDef="let element"> {{element.dataHoraInicio | date:'dd/MM/yyyy HH:mm:ss'}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="dataHoraFim">
+        <th mat-header-cell *matHeaderCellDef>Data Fim </th>
+        <td mat-cell *matCellDef="let element"> {{element.dataHoraFim | date:'dd/MM/yyyy HH:mm:ss'}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="idNotaInicial">
+        <th mat-header-cell *matHeaderCellDef>Id Inicial Origem NFe </th>
+        <td mat-cell *matCellDef="let element"> {{element.idNotaInicial}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="idNotaFinal">
+        <th mat-header-cell *matHeaderCellDef>Id Final Origem NFe </th>
+        <td mat-cell *matCellDef="let element"> {{element.idNotaFinal}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="quantidadeDeNotasProcessadas">
+        <th mat-header-cell *matHeaderCellDef>Quant. Notas Processadas</th>
+        <td mat-cell *matCellDef="let element"> {{element.quantidadeDeNotasProcessadas}} </td>
+    </ng-container>
+
+     <ng-container matColumnDef="quantidadeDeNotasAlteradas">
+        <th mat-header-cell *matHeaderCellDef>Quant. Notas Alteradas</th>
+        <td mat-cell *matCellDef="let element"> {{element.quantidadeDeNotasAlteradas}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

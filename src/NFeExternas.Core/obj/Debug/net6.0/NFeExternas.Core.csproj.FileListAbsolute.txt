@@ -1,0 +1,12 @@
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\bin\Debug\net6.0\NFeExternas.Core.deps.json
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\bin\Debug\net6.0\NFeExternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\bin\Debug\net6.0\NFeExternas.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\NFeExternas.Core.csproj.AssemblyReference.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\NFeExternas.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\NFeExternas.Core.AssemblyInfoInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\NFeExternas.Core.AssemblyInfo.cs
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\NFeExternas.Core.csproj.CoreCompileInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\NFeExternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\refint\NFeExternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\NFeExternas.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeExternas.Core\obj\Debug\net6.0\ref\NFeExternas.Core.dll

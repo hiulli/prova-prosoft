@@ -1,0 +1,12 @@
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\NFeInternas.Core.csproj.AssemblyReference.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\NFeInternas.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\NFeInternas.Core.AssemblyInfoInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\NFeInternas.Core.AssemblyInfo.cs
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\NFeInternas.Core.csproj.CoreCompileInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\bin\Debug\net6.0\NFeInternas.Core.deps.json
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\bin\Debug\net6.0\NFeInternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\bin\Debug\net6.0\NFeInternas.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\NFeInternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\refint\NFeInternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\NFeInternas.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFeInternas.Core\obj\Debug\net6.0\ref\NFeInternas.Core.dll

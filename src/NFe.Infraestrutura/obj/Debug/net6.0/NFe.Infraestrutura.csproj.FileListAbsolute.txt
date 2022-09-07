@@ -1,0 +1,17 @@
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.csproj.AssemblyReference.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.AssemblyInfoInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.AssemblyInfo.cs
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.csproj.CoreCompileInputs.cache
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\bin\Debug\net6.0\NFe.Infraestrutura.deps.json
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\bin\Debug\net6.0\NFe.Infraestrutura.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\bin\Debug\net6.0\NFe.Infraestrutura.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\bin\Debug\net6.0\NFeExternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\bin\Debug\net6.0\NFeInternas.Core.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\bin\Debug\net6.0\NFeExternas.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\bin\Debug\net6.0\NFeInternas.Core.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.csproj.CopyComplete
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\refint\NFe.Infraestrutura.dll
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\NFe.Infraestrutura.pdb
+C:\Users\krake\Desktop\ProvaProsoft\src\NFe.Infraestrutura\obj\Debug\net6.0\ref\NFe.Infraestrutura.dll

@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\Invoces.Infraestructure\\Invoces.Infraestructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\Invoces.Infraestructure\\Invoces.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\Invoces.Infraestructure\\Invoces.Infraestructure.csproj",
+        "projectName": "Invoces.Infraestructure",
+        "projectPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\Invoces.Infraestructure\\Invoces.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\krake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\Invoces.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\krake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeExternas.Core\\NFeExternas.Core.csproj": {
+                "projectPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeExternas.Core\\NFeExternas.Core.csproj"
+              },
+              "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeInternas.Core\\NFeInternas.Core.csproj": {
+                "projectPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeInternas.Core\\NFeInternas.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeExternas.Core\\NFeExternas.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeExternas.Core\\NFeExternas.Core.csproj",
+        "projectName": "NFeExternas.Core",
+        "projectPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeExternas.Core\\NFeExternas.Core.csproj",
+        "packagesPath": "C:\\Users\\krake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeExternas.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\krake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeInternas.Core\\NFeInternas.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeInternas.Core\\NFeInternas.Core.csproj",
+        "projectName": "NFeInternas.Core",
+        "projectPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeInternas.Core\\NFeInternas.Core.csproj",
+        "packagesPath": "C:\\Users\\krake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krake\\Desktop\\ProvaProsoft\\src\\NFeInternas.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\krake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

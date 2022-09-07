@@ -1,0 +1,29 @@
+<table mat-table [dataSource]="logs" class="mat-elevation-z8">
+    <ng-container matColumnDef="idLogNFeProcessada">
+        <th mat-header-cell *matHeaderCellDef> Id Processamento </th>
+        <td mat-cell *matCellDef="let element"> {{element.idLogNFeProcessada}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="idNFeProcessada">
+        <th mat-header-cell *matHeaderCellDef>Id Nota Processada </th>
+        <td mat-cell *matCellDef="let element"> {{element.idNFeProcessada}}</td>
+    </ng-container>
+    
+    <ng-container matColumnDef="campo">
+        <th mat-header-cell *matHeaderCellDef>Campo</th>
+        <td mat-cell *matCellDef="let element"> {{element.campo}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="valorAntigo">
+        <th mat-header-cell *matHeaderCellDef>Valor Antigo </th>
+        <td mat-cell *matCellDef="let element"> {{element.valorAntigo}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="valorNovo">
+        <th mat-header-cell *matHeaderCellDef>Valor Novo </th>
+        <td mat-cell *matCellDef="let element"> {{element.valorNovo}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
