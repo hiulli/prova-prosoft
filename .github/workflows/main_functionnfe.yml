@@ -3,29 +3,41 @@
 
 name: Build and deploy dotnet core project to Azure Function App - functionNfe
 
+name: Build and deploy dotnet core project to Azure Function App - functionNfe
+
 on:
   push:
-    branches: -main
-    
-  pull_request:
-    branches: -main 
-    
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'src/Function.LoadInvoces/' # set this to the path to your web app project, defaults to the repository root
+  DOTNET_VERSION: '6.0.x' # set this to the dotnet version to use
+
 jobs:
-  build:
-  
+  build-and-deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build 
-      run: dotnet build src/Function.LoadInvoces/Function.LoadInvoces.csproj
-    
-    
-    - name: Azure Functions Action
-      uses: Azure/functions-action@v1.4.7
+      - name: 'Checkout GitHub Action'
+        uses: actions/checkout@v2
+
+      - name: Setup DotNet ${{ env.DOTNET_VERSION }} Environment
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: 'Resolve Project Dependencies Using Dotnet'
+        shell: bash
+        run: |
+          pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
+          dotnet build Function.LoadInvoces.csproj --configuration Release --output ./output
+          popd
+      - name: 'Run Azure Functions Action'
+        uses: Azure/functions-action@v1
+        id: fa
+        with:
+          app-name: 'functionNfe'
+          slot-name: 'Production'
+          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FC75133A0E6344C59E4FABD7C2B19A1B }}
