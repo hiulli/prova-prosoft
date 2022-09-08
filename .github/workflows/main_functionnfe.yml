@@ -3,8 +3,6 @@
 
 name: Build and deploy dotnet core project to Azure Function App - functionNfe
 
-name: Build and deploy dotnet core project to Azure Function App - functionNfe
-
 on:
   push:
     branches:
