@@ -13,8 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_FUNCTIONAPP_NAME: 'functionnfe'
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
+  AZURE_FUNCTIONAPP_NAME: 'functionnfe'  
   DOTNET_VERSION: '6.0.x'  
 
 jobs:
